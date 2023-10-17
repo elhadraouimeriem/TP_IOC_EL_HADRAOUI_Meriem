@@ -7,9 +7,9 @@ import metier.MetierImpl;
 
 public class Pres1 {
     public static void main(String[] args) {
-        DaoImpl2 dao=new DaoImpl2();
+        DaoImpl2 dao=new DaoImpl2();//instanciation statique
         MetierImpl metier =new MetierImpl();
-        metier.setDao(dao);
+        metier.setDao(dao);//injection des dépendences
         System.out.println("résultat est :"+metier.calcul());
     }
 
