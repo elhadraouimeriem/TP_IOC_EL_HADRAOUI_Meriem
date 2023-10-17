@@ -39,7 +39,7 @@ dans les applications basées sur des cadres de travail tels que Spring (pour Ja
 </ol>
 <h2>Conception</h2>
 <h3>Couplage faible </h3>
-<img src="captures/Conception_caplage_faible.png"alt="Conception de Caplage faible">
+<img src="captures/Conception_caplage_faible.png" alt="Conception de Caplage faible">
 <p>Pour garantir un couplage faible dans nos conceptions, nous devons utiliser des interfaces. 
 Par exemple, prenons une classe DaoImpl qui implémente l'interface IDao, ainsi qu'une classe MetierImpl
 qui implémente l'interface `IMetier`.<br>
@@ -76,6 +76,7 @@ l'interface sans perturber le fonctionnement des classes existantes).
 <img src="captures/statique" alt="instantiation statique">
 <h2>Instantiation dynamique</h2>
 <img src="captures/dynamique" alt="instantiation dynamique">
+
 <h2>L'injection des dépandences avec Spring Framework version XML</h2>
 
 <h2>L'injection des dépandences avec Spring Framework version annotaions</h2>
