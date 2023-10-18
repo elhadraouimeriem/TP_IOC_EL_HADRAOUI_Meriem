@@ -65,7 +65,7 @@ l'interface sans perturber le fonctionnement des classes existantes).
 <img src="captures/dao_imp_db.PNG" alt="l'implimentation d'interface IDao">
 
 <h2>création d'implémentation de l'interface IDao avec la Version site web</h2>
-<img src="Daoi_web_imp.PNG" alt="l'implimentation d'interface IDao avec site web">
+<img src="captures/Daoi_web_imp.PNG" alt="l'implimentation d'interface IDao avec site web">
 
 <h2>création l'interface IMetier</h2>
 <img src="captures/interface_metier.PNG" alt="interfec metier">
@@ -138,7 +138,7 @@ que contrôleur dans le contexte Spring MVC.<br>
 <img src="captures/controller.PNG" alt="Controller">
 
 <h2>Conclusion</h2>
-<p> l'Inversion de Contrôle et l'Injection de Dépendances sont des pratiques essentielles 
+<p> L'Inversion de Contrôle et l'Injection de Dépendances sont des pratiques essentielles 
 pour développer des applications flexibles et évolutives. L'utilisation de bonnes pratiques 
 de conception, telles que l'utilisation d'interfaces et l'intégration de frameworks comme Spring,
 contribue à simplifier le développement et la maintenance des applications.</p>
