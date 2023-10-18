@@ -72,9 +72,9 @@ l'interface sans perturber le fonctionnement des classes existantes).
 <h2>création d'implémentation de l'interface IMetier</h2>
 <img src="captures/metier_imp.PNG" alt="Implementation de l'interface métier">
 
-<h2>Instantiation statique</h2>
+<h2>Instanciation statique</h2>
 <img src="captures/statique.PNG" alt="instantiation statique">
-<h2>Instantiation dynamique</h2>
+<h2>Instanciation dynamique</h2>
 <img src="captures/dynamique.PNG" alt="instantiation dynamique">
 
 <h2>L'injection des dépandences avec Spring Framework version XML</h2>
@@ -118,7 +118,7 @@ d'exécution de notre application Spring.
 </p>
 
 
-<h2>L'injection des dépandences avec Spring Framework version annotaions</h2>
+<h2>L'injection des dépandences avec Framework Spring version annotaions</h2>
 <h3> Repository</h3>
 <p>@Repository : Cette annotation est utilisée pour indiquer que la classe est
 un composant de persistance, généralement utilisé pour les accès aux données. 
