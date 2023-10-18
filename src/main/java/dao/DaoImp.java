@@ -7,7 +7,7 @@ import org.springframework.stereotype.Repository;
 public class DaoImp implements IDao{
     @Override
     public double getData() {
-        System.out.println("versin base de données");
+        System.out.println("version base de données");
         double data;
         data=34;
         return data;

@@ -137,6 +137,11 @@ que contrôleur dans le contexte Spring MVC.<br>
 </p>
 <img src="captures/controller.PNG" alt="Controller">
 
+<h2>Conclusion</h2>
+<p> l'Inversion de Contrôle et l'Injection de Dépendances sont des pratiques essentielles 
+pour développer des applications flexibles et évolutives. L'utilisation de bonnes pratiques 
+de conception, telles que l'utilisation d'interfaces et l'intégration de frameworks comme Spring,
+contribue à simplifier le développement et la maintenance des applications.</p>
 
 
 
