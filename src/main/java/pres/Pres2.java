@@ -21,10 +21,10 @@ public class Pres2 {
         //MetierImpl metier =new MetierImpl();//maniere statique
         String metierClassName=scanner.nextLine();
         Class cMetier = Class.forName(metierClassName);
-        IMetier metier=(IMetier) cMetier.getConstructor().newInstance();
+        IMetier metier=(IMetier) cMetier.getConstructor(IDao.class).newInstance(dao);//injection via un constructeur
        // metier.setDao(dao);//maniere statique
-        Method setDao=cMetier.getDeclaredMethod("setDao", IDao.class);
-        setDao.invoke(metier,dao);// injection des dependences
+        //Method setDao=cMetier.getDeclaredMethod("setDao", IDao.class);
+       // setDao.invoke(metier,dao);// injection des dependences
         System.out.println("res: "+metier.calcul());
     }
 }

@@ -7,7 +7,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class PresAvecSpringXML {
     public static void main(String[] args) {
         ApplicationContext springContext=new ClassPathXmlApplicationContext("config.xml");
-        IMetier metier=springContext.getBean(IMetier.class);
+        IMetier metier=(IMetier) springContext.getBean("metier");
         System.out.println("rest: "+metier.calcul());
     }
 }
